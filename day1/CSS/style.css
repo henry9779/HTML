@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 10px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-style: Lobster;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}

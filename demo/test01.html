@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>切版</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .container {
+            width: 960;
+            background-color: rgb(83, 189, 255);
+            margin: auto;
+        }
+        
+        .col {
+            width: 380px;
+            margin: 10px;
+            height: 400px;
+            padding: 10px;
+            background-color: #c4c4c4;
+            float: left;
+        }
+        
+        .col img {
+            width: 100%;
+        }
+        
+        .clear-fix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col">
+            <img src="https://fakeimg.pl/250x150/aaaaaa/eeeeee" class="float-img">
+            <h3>title</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquid magni, nostrum, consequuntur dolorem aliquam nihil est id voluptate maiores reiciendis? Illum dolores ut quod vitae consectetur culpa quidem Lorem ipsum dolor sitamet
+            </p>
+        </div>
+        <div class="col">
+            <img src="https://fakeimg.pl/250x150/aaaaaa/eeeeee" class="float-img">
+            <h3>title</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore aliquid magni, nostrum, consequuntur dolorem aliquam nihil est id voluptate maiores reiciendis? Illum dolores ut quod vitae
+            </p>
+        </div>
+        <div class="clear-fix"></div>
+    </div>
+
+</body>
+
+</html>
