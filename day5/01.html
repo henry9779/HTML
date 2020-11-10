@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            height: 600px;
+            background-color: #ccc;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .item {
+            width: 200px;
+            height: 130px;
+            margin: 2px;
+            font-size: 40px;
+            color: white;
+        }
+        
+        .item1 {
+            background-color: green;
+            /* order: 4; */
+        }
+        
+        .item2 {
+            background-color: red;
+            /* order: 3; */
+        }
+        
+        .item3 {
+            background-color: blue;
+            height: 200px;
+            /* order: 5; */
+        }
+        
+        .item4 {
+            background-color: #fa0;
+            /* order: 2; */
+            margin-top: -68px;
+        }
+        
+        .item5 {
+            background-color: peru;
+            margin-top: -68px;
+            /* order: 1; */
+        }
+        
+        .item6 {
+            background-color: #796b6b;
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+
+</body>
+
+</html>
